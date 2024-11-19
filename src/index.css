@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+.location-icon {
+	font-size: 2rem;
+	color: red;
+	cursor: pointer;
+	will-change: transform;
+}
+
+.location-marker {
+	will-change: transform;
+}
+
+.spinner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30rem;
+}
+
+.location-info {
+	position: absolute;
+	top: 80px;
+	right: 50px;
+	width: 400px;
+	min-height: 200px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.location-info ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.location-info li {
+	padding: 5px 0;
+}
